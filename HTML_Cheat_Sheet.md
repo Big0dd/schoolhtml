@@ -106,59 +106,6 @@
 `align="??"		##Horizontal Alignment: left, center, right (*)
 `valign="??"		##Vertical Alignment: top, middle, bottom (*)
 `nowrap		##Force no line breaks in a particular cell
-#### Frames 
-`<frameset> ... </frameset>	##Define the set of Frames
-`<frameset> Tag Attributes:	 
-`rows="??,??, ..."		##Define row sizes & number of rows (size in pixels or %)
-`cols="??,??, ..."		##Define column sizes & number of columns (size in pixels or %)
-`noresize="noresize"		##User cannot resize any frames in frameset
-`<frame> ... </frame>	##Define a frame within the frameset
-`<frame> Tag Attributes:	 
-`src="url"		##Location of HTML File for a frame
-`name="***"		##Unique name of frame window
-`marginwidth="?"		##Horizontal margin spacing inside frame (pixels)
-`marginheight="?"		##Vertical margin spacing inside frame (pixels)
-`noresize="noresize"		##Declare all frameset sizes as fixed
-`scrolling="***"		##Can the user scroll inside the frame: yes, no, auto
-`frameborder="?"		##Frame Border: (1=yes, 2=no)
-`bordercolor="#??????"		##Unframed content (for browsers not supporting frames)
-##### Forms 	
-`<form> ... </form>	##Form input group decleration
-`<form> Tag Attributes:	 
-`action="url"		##URL of Form Script
-`method="***"		##Method of Form: get, post
-`enctype="***"		##For File Upload: enctype="multipart/form-data"
-`<input> ... </input>	##Input field within form
-`<input> Tag Attributes:	 
-`type="***"		##Input Field Type: text, password, checkbox, submit etc.
-`name="***"		##Form Field Name (for form processing script)
-`value="***"		##Value of Input Field
-`size="***"		##Field Size
-`maxlength="?"		##Maximum Length of Input Field Data
-`checked		##Mark selected field in radio button group or checkbox
-`<select> ... </select>	##Select options from drop down list
-`<select> Tag Attributes:	 
-`name="***"		##Drop Down Combo-Box Name (for form processing script)
-`size="?"		##Number of selectable options
-`multiple		##Allow multiple selections
-`<option> ... </option>	##Option (item) within drop down list
-`<option> Tag Attributes:	 
-`value="***"		##Option Value
-`selected		##Set option as default selected option
-`<textarea> ... </textarea>	##Large area for text input
-`<textarea> Tag Attributes:	 
-`name="***"		##Number of rows of text shown
-`cols="?"		##Number of columns (characters per rows)
-`wrap="***"		##Word Wrapping: off, hard, soft
-# Special Characters 	
-`&lt;	< - ##Less-Than Symbol
-`&gt;	> - ##Greater-Than Symbol
-`&amp;	& - ##Ampersand, or 'and' sign
-`&quot;	" - ##Quotation Mark
-`&copy;	© - ##Copyright Symbol
-`&trade;	™ - ##Trademark Symbol
-`&nbsp;	  - ##A space (non-breaking space)
-`&#??;	##ISO 8859-1 character - ##replace ?? with the iso code
 ## Miscellaneous Tags 	
 `<!-- ... -->	##Comment within HTML source code
 `<!DOCTYPE html ... >	##Document Type Definition (wiki)
@@ -173,14 +120,3 @@
 `http="url"	##Location (URL) of object or file being linked
 `type="***"	##Type of object or file, eg: text/css
 `title="***"	##Link title (optional)
-### Body Background & Colours 	
-`<body> Tag Attributes:	 
-`background="url"	##Background Image (*)
-`bgcolor="#??????" 	##Background Colour (*)
-`text="#??????" 	##Document Text Colour (*)
-`link="#??????" 	##Link Colour (*)
-`vlink="#??????" 	##Visited Link Colour (*)
-`alink="#??????" 	##Active Link Colour (*)
-`bgproperties="fixed" 	##Background Properties - "Fixed" = non-scrolling watermark (*)
-`leftmargin="?" 	##Side Margin Size in Pixels (Internet Explorer) (*)
-`topmargin="?" 	##Top Margin Size in Pixels (Internet Explorer) (*)
